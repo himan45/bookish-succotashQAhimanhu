@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationTestSuite">
+<listeners>
+<listener class-name="Ninza.QA.Listeners.MyListeners" />
+</listeners>
+<test thread-count="5" name="TestNinjatestcases">
+    <classes>
+     <class name="Ninza.QA.Testcase.Register1Test"/>
+      <class name="Ninza.QA.Testcase.loginTest"/>
+      <class name="Ninza.QA.Testcase.Search1Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
